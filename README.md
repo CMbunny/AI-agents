@@ -11,6 +11,7 @@ A collection of AI agents built with Python — growing list of real-world agent
 | 🗺️ AI Audio Tour Agent | Generates personalized self-guided audio tours for any location using a 7-agent pipeline (Planner, Location Suggestion, Architecture, History, Culture, Culinary, Orchestrator) + TTS. Supports multi-stop selection, personas, languages, PDF export, and tour history | [voice_ai_agents/ai_audio_tour_agent](voice_ai_agents/ai_audio_tour_agent) |
 | 🧠 AI Reasoning Agent | Compares regular vs reasoning AI models side by side on any question, with step-by-step thinking chain visible. Optional local model support via Ollama (qwq:32b) | [starter_ai_agents/ai_reasoning_agent](starter_ai_agents/ai_reasoning_agent) |
 | 💔 Breakup Recovery Agent | 5-agent recovery squad: emotional profiling (Claude), therapist, closure, glow up plan, and brutal honesty (Gemini). Mode toggle, crisis detection with real helplines, chat screenshot analysis. | starter_ai_agents/ai_breakup_recovery_agent |
+| 📈 Startup Trend Analysis Agent | 3-angle parallel news search, article summarization, trend analysis, competitor mapping, PDF export, and topic history. Hybrid pipeline: Gemini 2.5 Flash (search + summarize) + Claude Sonnet 4.6 (analysis + competitor mapping) | [starter_ai_agents/ai_startup_trend_analysis_agent](starter_ai_agents/ai_startup_trend_analysis_agent) |
 
 ## Stack
 
@@ -23,6 +24,7 @@ A collection of AI agents built with Python — growing list of real-world agent
 - ReportLab (PDF export)
 - Ollama (local model support)
 - Agno (multi-agent framework)
+- Google Gemini 2.5 Flash (Startup Trend Analysis agents)
 - Google Gemini 2.0 Flash (Breakup Recovery agents)
 - Anthropic Claude Sonnet (Red Flags emotional profiling)
 - More tools per agent — see individual READMEs
