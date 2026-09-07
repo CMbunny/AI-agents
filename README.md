@@ -1,3 +1,5 @@
+Built while learning agent architectures, inspired by/adapted from Shubhamsaboo/awesome-llm-apps.
+
 # AI-agents
 A collection of AI agents built with Python — growing list of real-world agent projects.
 
